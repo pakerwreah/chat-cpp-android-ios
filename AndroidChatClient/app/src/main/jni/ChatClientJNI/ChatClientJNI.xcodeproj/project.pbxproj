@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3419FE8F1ADB4E10003DFCBD /* chatclient-android.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3419FE881ADB4E10003DFCBD /* chatclient-android.cpp */; };
+		3419FE901ADB4E10003DFCBD /* chatclient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3419FE8A1ADB4E10003DFCBD /* chatclient.cpp */; };
+		3419FE911ADB4E10003DFCBD /* Socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3419FE8C1ADB4E10003DFCBD /* Socket.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3419FE7C1ADB4DE1003DFCBD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3419FE7E1ADB4DE1003DFCBD /* ChatClientJNI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ChatClientJNI; sourceTree = BUILT_PRODUCTS_DIR; };
+		3419FE881ADB4E10003DFCBD /* chatclient-android.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "chatclient-android.cpp"; sourceTree = "<group>"; };
+		3419FE891ADB4E10003DFCBD /* chatclient-android.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "chatclient-android.h"; sourceTree = "<group>"; };
+		3419FE8A1ADB4E10003DFCBD /* chatclient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chatclient.cpp; sourceTree = "<group>"; };
+		3419FE8B1ADB4E10003DFCBD /* chatclient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chatclient.h; sourceTree = "<group>"; };
+		3419FE8C1ADB4E10003DFCBD /* Socket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Socket.cpp; sourceTree = "<group>"; };
+		3419FE8D1ADB4E10003DFCBD /* Socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Socket.h; sourceTree = "<group>"; };
+		3419FE8E1ADB4E10003DFCBD /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3419FE7B1ADB4DE1003DFCBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3419FE751ADB4DE1003DFCBD = {
+			isa = PBXGroup;
+			children = (
+				3419FE801ADB4DE1003DFCBD /* ChatClientJNI */,
+				3419FE7F1ADB4DE1003DFCBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3419FE7F1ADB4DE1003DFCBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3419FE7E1ADB4DE1003DFCBD /* ChatClientJNI */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3419FE801ADB4DE1003DFCBD /* ChatClientJNI */ = {
+			isa = PBXGroup;
+			children = (
+				3419FE881ADB4E10003DFCBD /* chatclient-android.cpp */,
+				3419FE891ADB4E10003DFCBD /* chatclient-android.h */,
+				3419FE8A1ADB4E10003DFCBD /* chatclient.cpp */,
+				3419FE8B1ADB4E10003DFCBD /* chatclient.h */,
+				3419FE8C1ADB4E10003DFCBD /* Socket.cpp */,
+				3419FE8D1ADB4E10003DFCBD /* Socket.h */,
+				3419FE8E1ADB4E10003DFCBD /* util.h */,
+			);
+			path = ChatClientJNI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3419FE7D1ADB4DE1003DFCBD /* ChatClientJNI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3419FE851ADB4DE1003DFCBD /* Build configuration list for PBXNativeTarget "ChatClientJNI" */;
+			buildPhases = (
+				3419FE7A1ADB4DE1003DFCBD /* Sources */,
+				3419FE7B1ADB4DE1003DFCBD /* Frameworks */,
+				3419FE7C1ADB4DE1003DFCBD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatClientJNI;
+			productName = ChatClientJNI;
+			productReference = 3419FE7E1ADB4DE1003DFCBD /* ChatClientJNI */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3419FE761ADB4DE1003DFCBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Paker;
+				TargetAttributes = {
+					3419FE7D1ADB4DE1003DFCBD = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 3419FE791ADB4DE1003DFCBD /* Build configuration list for PBXProject "ChatClientJNI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3419FE751ADB4DE1003DFCBD;
+			productRefGroup = 3419FE7F1ADB4DE1003DFCBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3419FE7D1ADB4DE1003DFCBD /* ChatClientJNI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3419FE7A1ADB4DE1003DFCBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3419FE901ADB4E10003DFCBD /* chatclient.cpp in Sources */,
+				3419FE911ADB4E10003DFCBD /* Socket.cpp in Sources */,
+				3419FE8F1ADB4E10003DFCBD /* chatclient-android.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3419FE831ADB4DE1003DFCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3419FE841ADB4DE1003DFCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3419FE861ADB4DE1003DFCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$HOME/Library/Android/ndk/platforms/android-15/arch-x86/usr/include";
+			};
+			name = Debug;
+		};
+		3419FE871ADB4DE1003DFCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$HOME/Library/Android/ndk/platforms/android-15/arch-x86/usr/include";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3419FE791ADB4DE1003DFCBD /* Build configuration list for PBXProject "ChatClientJNI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3419FE831ADB4DE1003DFCBD /* Debug */,
+				3419FE841ADB4DE1003DFCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3419FE851ADB4DE1003DFCBD /* Build configuration list for PBXNativeTarget "ChatClientJNI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3419FE861ADB4DE1003DFCBD /* Debug */,
+				3419FE871ADB4DE1003DFCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3419FE761ADB4DE1003DFCBD /* Project object */;
+}
